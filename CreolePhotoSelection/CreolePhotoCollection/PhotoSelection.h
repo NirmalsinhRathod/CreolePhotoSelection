@@ -2,7 +2,7 @@
 //  PhotoSelection.h
 //  CreolePhotoSelection
 //
-//  Created by Nidhi on 6/15/17.
+//  Created by CreoleStuduios on 6/15/17.
 //  Copyright © 2017 CreoleStudios. All rights reserved.
 //
 

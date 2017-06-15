@@ -2,7 +2,7 @@
 //  CreolePhotoSelection.m
 //  CreolePhotoSelection
 //
-//  Created by Nidhi on 6/15/17.
+//  Created by CreoleStuduios on 6/15/17.
 //  Copyright © 2017 CreoleStudios. All rights reserved.
 //
 
@@ -22,7 +22,7 @@
     if(_arySelectedPhoto.count == 0)
         _arySelectedPhoto = [NSMutableArray new];
     
-    [self setTitleToNAvBar:@"Choose Photo" andWithTarget:self]; //Set NavigationBar
+    [self setTitleToNAvBar:_strTitle andWithTarget:self]; //Set NavigationBar
     
     [self setGalleryBarItem]; //Set navigationItem Button
     
@@ -119,7 +119,6 @@
     [_arySelectedPhoto addObject:dic];
     dic = nil;
     [_collectionView reloadData];
-    //    [self btnPhotoDoneClicked:nil];
     [self setBottomViewCountLayout];
     [picker dismissViewControllerAnimated:YES completion:nil];
     UIImageWriteToSavedPhotosAlbum(img1, nil, nil, nil);

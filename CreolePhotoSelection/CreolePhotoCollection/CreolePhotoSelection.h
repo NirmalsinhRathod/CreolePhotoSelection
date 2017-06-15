@@ -2,7 +2,7 @@
 //  CreolePhotoSelection.h
 //  CreolePhotoSelection
 //
-//  Created by Nidhi on 6/15/17.
+//  Created by CreoleStuduios on 6/15/17.
 //  Copyright © 2017 CreoleStudios. All rights reserved.
 //
 
@@ -23,6 +23,7 @@
 @property (strong, nonatomic) IBOutlet UICollectionView *collectionView;
 @property (strong, nonatomic) IBOutlet UIButton *btnDone;
 @property (strong, nonatomic) IBOutlet UILabel *lblNumberOfPhotoSelected;
+@property (strong, nonatomic) NSString *strTitle;
 @property (strong, nonatomic) IBOutlet UIView *viewBottom;
 
 - (IBAction)btnPhotoDoneClicked:(id)sender;

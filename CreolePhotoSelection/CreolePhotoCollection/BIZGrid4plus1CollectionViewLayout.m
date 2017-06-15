@@ -1,32 +1,5 @@
-//
-//  BIZGrid4plus1CollectionViewLayout.m
-//  ExampleBIZGrid4plus1CollectionViewLayout
-//
-//  Created by IgorBizi@mail.ru on 12/11/15.
-//  Copyright © 2015 IgorBizi@mail.ru. All rights reserved.
-//
 
 #import "BIZGrid4plus1CollectionViewLayout.h"
-
-
-/* Groups
- 
- Small row: kImageGroupTypeSmallTop, kImageGroupTypeSmallMiddle,
- 
- **     **     **     **
- (0,0)  (0,1)  (0,2)  (0,3)
- 
- 
- Big row: kImageGroupTypeBigRight, kImageGroupTypeBigLeft
- 
- **    **     |  **   |
- (0,0) (0,1)  |  **   |
- **    **     | (0,2) |
- (1,0) (1,1)
- 
- */
-
-
 static NSString *cellElementKind = @"cellElementKind";
 
 

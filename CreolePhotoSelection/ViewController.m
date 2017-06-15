@@ -2,7 +2,7 @@
 //  ViewController.m
 //  CreolePhotoSelection
 //
-//  Created by Nidhi on 6/14/17.
+//  Created by CreoleStuduios on 6/14/17.
 //  Copyright © 2017 CreoleStudios. All rights reserved.
 //
 
@@ -32,6 +32,7 @@
 {
     CreolePhotoSelection *objPhotoViewController= [[CreolePhotoSelection alloc] initWithNibName:@"CreolePhotoSelection" bundle:nil];
     UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:objPhotoViewController];
+    objPhotoViewController.strTitle = @"Choose Photo";
     objPhotoViewController.delegate = self;
     objPhotoViewController.arySelectedPhoto = _arrImage;
     objPhotoViewController.maxCount = 5;

@@ -2,7 +2,7 @@
 //  ViewController.h
 //  CreolePhotoSelection
 //
-//  Created by Nidhi on 6/14/17.
+//  Created by CreoleStuduios on 6/14/17.
 //  Copyright © 2017 CreoleStudios. All rights reserved.
 //
 
