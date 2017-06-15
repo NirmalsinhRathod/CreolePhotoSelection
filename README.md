@@ -34,7 +34,7 @@ You just need to drag folder "CreolePhotoCollection" your project and initialize
 
 ```
 
-Also don't forgot to add below two keys into your info.plist file
+Also don't forgot to add Camera and Gallary permissions keys into your info.plist file
 
     1) Privacy - Camera Usage Description
     
