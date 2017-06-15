@@ -336,11 +336,14 @@
 #pragma mark Action method
 - (IBAction)btnPhotoDoneClicked:(id)sender
 {
+    NSMutableArray *finalSelectedArray = [NSMutableArray new];
     if (_arySelectedPhoto.count > 0) {
         [self addingMainImageInSelectedList];
-        [_delegate getSelectedPhoto:_arySelectedPhoto];
-        [self goBack];
+        finalSelectedArray = [_arySelectedPhoto mutableCopy];
     }
+    [_delegate getSelectedPhoto:finalSelectedArray];
+    [self goBack];
+
 }
 
 @end
