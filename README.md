@@ -7,8 +7,10 @@ Objective C and
 iOS 10 and above
 
 # Demo
+<br>
+<img height="356" src="https://dl.dropbox.com/s/r0qw2jycz2efgkn/photoselection.gif" />
+</br>
 
-![Its looks like](https://www.dropbox.com/s/r0qw2jycz2efgkn/photoselection.gif?dl=0)
 
 # How to implement
 You just need to drag folder "CreolePhotoCollection" your project and initialize the object
