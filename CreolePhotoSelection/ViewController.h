@@ -9,7 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+@property (strong, nonatomic) IBOutlet UIScrollView *scrImageDisplay;
+- (IBAction)btnSelectImageClick:(id)sender;
+@property (strong,nonatomic) NSMutableArray *arrImage;
+@property (strong,nonatomic) UIImageView *imgAddNewPhoto;
 
 @end
 

@@ -31,8 +31,10 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    <key>NSCameraUsageDescription</key>
+    <string>UNIBuy like to use camera</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>UNIBuy like to use photo</string>
 </dict>
 </plist>

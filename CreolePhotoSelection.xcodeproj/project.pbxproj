@@ -13,6 +13,11 @@
 		E084C29B1EF11578006A83E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E084C2991EF11578006A83E4 /* Main.storyboard */; };
 		E084C29D1EF11578006A83E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E084C29C1EF11578006A83E4 /* Assets.xcassets */; };
 		E084C2A01EF11578006A83E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E084C29E1EF11578006A83E4 /* LaunchScreen.storyboard */; };
+		E0998B341EF25BCE003590AB /* BIZGrid4plus1CollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E0998B2D1EF25BCE003590AB /* BIZGrid4plus1CollectionViewLayout.m */; };
+		E0998B3C1EF25C0E003590AB /* PhotoSelection.m in Sources */ = {isa = PBXBuildFile; fileRef = E0998B3A1EF25C0E003590AB /* PhotoSelection.m */; };
+		E0998B3D1EF25C0E003590AB /* PhotoSelection.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0998B3B1EF25C0E003590AB /* PhotoSelection.xib */; };
+		E0998B411EF25C89003590AB /* CreolePhotoSelection.m in Sources */ = {isa = PBXBuildFile; fileRef = E0998B3F1EF25C89003590AB /* CreolePhotoSelection.m */; };
+		E0998B421EF25C89003590AB /* CreolePhotoSelection.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0998B401EF25C89003590AB /* CreolePhotoSelection.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,14 @@
 		E084C29C1EF11578006A83E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E084C29F1EF11578006A83E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E084C2A11EF11578006A83E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0998B2C1EF25BCE003590AB /* BIZGrid4plus1CollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIZGrid4plus1CollectionViewLayout.h; sourceTree = "<group>"; };
+		E0998B2D1EF25BCE003590AB /* BIZGrid4plus1CollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIZGrid4plus1CollectionViewLayout.m; sourceTree = "<group>"; };
+		E0998B391EF25C0E003590AB /* PhotoSelection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSelection.h; sourceTree = "<group>"; };
+		E0998B3A1EF25C0E003590AB /* PhotoSelection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoSelection.m; sourceTree = "<group>"; };
+		E0998B3B1EF25C0E003590AB /* PhotoSelection.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoSelection.xib; sourceTree = "<group>"; };
+		E0998B3E1EF25C89003590AB /* CreolePhotoSelection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreolePhotoSelection.h; sourceTree = "<group>"; };
+		E0998B3F1EF25C89003590AB /* CreolePhotoSelection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreolePhotoSelection.m; sourceTree = "<group>"; };
+		E0998B401EF25C89003590AB /* CreolePhotoSelection.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreolePhotoSelection.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,7 @@
 		E084C28F1EF11578006A83E4 /* CreolePhotoSelection */ = {
 			isa = PBXGroup;
 			children = (
+				E0998B2B1EF25BCE003590AB /* CreolePhotoCollection */,
 				E084C2931EF11578006A83E4 /* AppDelegate.h */,
 				E084C2941EF11578006A83E4 /* AppDelegate.m */,
 				E084C2961EF11578006A83E4 /* ViewController.h */,
@@ -77,6 +91,21 @@
 				E084C2911EF11578006A83E4 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E0998B2B1EF25BCE003590AB /* CreolePhotoCollection */ = {
+			isa = PBXGroup;
+			children = (
+				E0998B2C1EF25BCE003590AB /* BIZGrid4plus1CollectionViewLayout.h */,
+				E0998B2D1EF25BCE003590AB /* BIZGrid4plus1CollectionViewLayout.m */,
+				E0998B391EF25C0E003590AB /* PhotoSelection.h */,
+				E0998B3A1EF25C0E003590AB /* PhotoSelection.m */,
+				E0998B3B1EF25C0E003590AB /* PhotoSelection.xib */,
+				E0998B3E1EF25C89003590AB /* CreolePhotoSelection.h */,
+				E0998B3F1EF25C89003590AB /* CreolePhotoSelection.m */,
+				E0998B401EF25C89003590AB /* CreolePhotoSelection.xib */,
+			);
+			path = CreolePhotoCollection;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +167,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E084C2A01EF11578006A83E4 /* LaunchScreen.storyboard in Resources */,
+				E0998B3D1EF25C0E003590AB /* PhotoSelection.xib in Resources */,
+				E0998B421EF25C89003590AB /* CreolePhotoSelection.xib in Resources */,
 				E084C29D1EF11578006A83E4 /* Assets.xcassets in Resources */,
 				E084C29B1EF11578006A83E4 /* Main.storyboard in Resources */,
 			);
@@ -151,7 +182,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E084C2981EF11578006A83E4 /* ViewController.m in Sources */,
+				E0998B3C1EF25C0E003590AB /* PhotoSelection.m in Sources */,
 				E084C2951EF11578006A83E4 /* AppDelegate.m in Sources */,
+				E0998B411EF25C89003590AB /* CreolePhotoSelection.m in Sources */,
+				E0998B341EF25BCE003590AB /* BIZGrid4plus1CollectionViewLayout.m in Sources */,
 				E084C2921EF11578006A83E4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +343,7 @@
 				E084C2A61EF11578006A83E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
