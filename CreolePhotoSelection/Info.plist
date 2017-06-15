@@ -32,9 +32,9 @@
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
 	</array>
-    <key>NSCameraUsageDescription</key>
-    <string>UNIBuy like to use camera</string>
-    <key>NSPhotoLibraryUsageDescription</key>
-    <string>UNIBuy like to use photo</string>
+	<key>NSCameraUsageDescription</key>
+	<string>YourApp like to use camera</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>YourApp like to use photo</string>
 </dict>
 </plist>
