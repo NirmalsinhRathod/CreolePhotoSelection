@@ -86,10 +86,10 @@
 {
     if ([UIImagePickerController isSourceTypeAvailable: UIImagePickerControllerSourceTypeCamera])
     {
-        self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"photo_camera"] style:UIBarButtonItemStylePlain target:self action:@selector(openCamera)];
+        self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"photo_camera.png"] style:UIBarButtonItemStylePlain target:self action:@selector(openCamera)];
     }
     
-    self.navigationItem.rightBarButtonItem =[[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"cancel-2"] style:UIBarButtonItemStylePlain target:self action:@selector(goBack)];
+    self.navigationItem.rightBarButtonItem =[[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"cancel.png"] style:UIBarButtonItemStylePlain target:self action:@selector(goBack)];
 }
 
 //Camera open
